@@ -1,9 +1,10 @@
 import 'dart:async';
-import 'package:meta/meta.dart';
+
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:todo_alex/blocs/todos/todos_bloc.dart';
-import 'package:todo_alex/models/todo.dart';
+import 'package:meta/meta.dart';
+import 'package:todos_felix/models/todo.dart';
+import '../bloc.dart';
 
 part 'stats_event.dart';
 part 'stats_state.dart';

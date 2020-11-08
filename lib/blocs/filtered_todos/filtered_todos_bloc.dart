@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:todo_alex/blocs/todos/todos_bloc.dart';
-import 'package:todo_alex/models/todo.dart';
-import 'package:todo_alex/models/visibility_filter.dart';
 import 'package:meta/meta.dart';
+import 'package:todos_felix/blocs/bloc.dart';
+import 'package:todos_felix/models/todo.dart';
+import 'package:todos_felix/models/visibility_filter.dart';
 
 part 'filtered_todos_event.dart';
 part 'filtered_todos_state.dart';
