@@ -11,7 +11,7 @@ class ExtraActions extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocBuilder(
+    return BlocBuilder<TodosBloc, TodosState>(
       builder: (context, state) {
         if (state is TodosLoadSuccess) {
           bool allComplete =

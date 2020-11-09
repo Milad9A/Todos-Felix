@@ -18,7 +18,7 @@ class TodosBloc extends Bloc<TodosEvent, TodosState> {
   Stream<TodosState> mapEventToState(
     TodosEvent event,
   ) async* {
-    if (event is TodosLoadSuccess) {
+    if (event is TodosLoaded) {
       yield* _mapTodosLoadedToState();
     } else if (event is TodoAdded) {
       yield* _mapTodoAddedToState(event);
